@@ -1,0 +1,49 @@
+body {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #444;
+}
+
+h1, h2 {margin-bottom: 15px}
+
+h1 {font-size: 18px;}
+h2 {font-size: 16px;}
+
+
+#container {
+	width: 700px;
+	margin: 150px auto;
+	background-color: #eee;
+	padding: 15px;
+	overflow: hidden;
+}
+
+a {color: #48577D; text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+
+	#main {
+		width: 490px;
+		float: left;
+	}
+		#main table {
+			width: 480px; 
+		}
+			#main table th {
+				padding: 10px;
+				background-color: #48577D;
+				color: #fff;
+				text-align: left;
+			}
+
+			#main table td {
+				padding: 5px;
+			}
+
+	#sidebar {
+		width: 200px;
+		float: left;
+	}
+
+
